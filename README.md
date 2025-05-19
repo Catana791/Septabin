@@ -50,3 +50,4 @@ The last data block before the end marker is the checksum for integrity verifica
 
 A translator that translates from and to Septabin is available. 
 This translator also has the added ability to check the integrity of Septabin strings using the checksum block.
+The translator is available from me (Catana791) directly on Discord.
