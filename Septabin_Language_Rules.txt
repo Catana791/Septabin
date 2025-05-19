@@ -1,0 +1,38 @@
+Septabin Encoding Rules
+
+1. Message Boundaries:
+   Each message starts with a START marker (0000000) and ends with an END marker (1111111).
+
+2. No Physical Spaces:
+   The encoded binary text contains no physical spaces. SPACE is encoded as its own 7-bit binary value (0111111).
+
+3. Character Set:
+   Allowed characters include digits 0-9, uppercase A-Z, lowercase a-z, and punctuation: . ! , ? -
+
+4. Uniform Binary Length:
+   Each character is represented by a 7-bit binary code, all of equal length.
+
+5. Case Sensitivity:
+   Uppercase and lowercase letters are distinct and have unique codes.
+
+6. Single Start and End Markers:
+   Exactly one START and one END marker per message block.
+
+7. Strict 7-Bit Alignment:
+   The total length of the encoded binary string is always a multiple of 7 bits.
+
+8. No Extraneous Bits:
+   No leading zeros or stray bits outside of START/END boundaries.
+
+9. Message Integrity Check (Checksum):
+   A 7-bit checksum is inserted just before the END marker, calculated as:
+   - Convert each 7-bit character (excluding START and END) to decimal
+   - Sum all values
+   - Compute sum modulo 128
+   - Convert result to 7-bit binary and insert before END
+
+10. Reserved Values:
+    START (0000000) and END (1111111) are reserved markers.
+
+11. Future Expansion:
+    Reserve unused 7-bit codes for escape sequences or additional symbols as needed.
