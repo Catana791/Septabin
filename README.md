@@ -45,3 +45,8 @@ Septabin binary:
 The last data block before the end marker is the checksum for integrity verification.
 
 ---
+
+## Translator
+
+A translator that translates from and to Septabin is available. 
+This translator also has the added ability to check the integrity of Septabin strings using the checksum block.
