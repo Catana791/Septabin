@@ -56,4 +56,4 @@ This translator also has the added ability to check the integrity of Septabin st
 The translator is available from me (Catana791) directly on Discord.
 
 <!----------------------------------[ Links ]--------------------------------->
-[Logo]: septabin-logo.png
+[Logo]: septabin-icon.png
