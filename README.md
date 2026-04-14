@@ -78,7 +78,7 @@ When running the `.exe` for the first time, Windows may show a warning such as:
 > “Microsoft Defender SmartScreen prevented an unrecognized app from starting”
 
 This happens because:
-- The application is not digitally signed (yet)
+- The application is not digitally signed
 - It is not widely downloaded enough for Windows reputation scoring
 
 ### To run safely:
