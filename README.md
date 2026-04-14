@@ -58,13 +58,12 @@ The translator is available from me (Catana791) directly on Discord.
 ### How to use the translator
 
 1. Download the latest release from the GitHub Releases page.
-2. Extract the `.zip` file (if provided).
-3. Run `Septabin.exe`.
-4. Paste or type text into the INPUT box.
-5. Click:
+2. Run `Septabin.exe`.
+3. Paste or type text into the INPUT box.
+4. Click:
    - **Encode** → converts text to Septabin
    - **Decode** → converts Septabin back to text
-6. Use **Clear** to reset input/output fields.
+5. Use **Clear** to reset input/output fields.
 
 > ⚠️ Note: This application is built using Python and packaged as a standalone executable.
 
