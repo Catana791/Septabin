@@ -58,7 +58,7 @@ The translator is available from me (Catana791) directly on Discord.
 ### How to use the translator
 
 1. Download the latest release from the GitHub Releases page.
-2. Run `Septabin.exe`.
+2. Run `septabin-translator.exe`.
 3. Paste or type text into the INPUT box.
 4. Click:
    - **Encode** → converts text to Septabin
